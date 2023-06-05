@@ -59,9 +59,18 @@ public class DisplaySurah extends AppCompatActivity {
             public void onClick(View v) {
                 String ayat = searchBar.getText().toString();
                 int numAyat = Integer.parseInt(ayat);
+                int numToDisplay = start+numAyat-1;
+
                 String toDisplay = qat.QuranArabicText[start+numAyat-1];
                 Intent intent = new Intent(DisplaySurah.this,TakeAyat.class);
                 intent.putExtra("ayatNum",toDisplay);
+
+                if(numToDisplay<=end){
+                    intent.putExtra("flag",true);
+                }
+                else{
+                    intent.putExtra("flag",false);
+                }
                 startActivity(intent);
 
             }

@@ -15,6 +15,12 @@ public class TakeAyat extends AppCompatActivity {
         textView = findViewById(R.id.textView);
 
         String ayat = getIntent().getStringExtra("ayatNum");
-        textView.setText(ayat);
+        if(getIntent().getBooleanExtra("flag",false)){
+            textView.setText(ayat);
+        }
+        else {
+            textView.setText("Ayat not part of Surah!");
+        }
+
     }
 }
