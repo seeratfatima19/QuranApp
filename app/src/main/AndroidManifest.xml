@@ -11,6 +11,12 @@
         android:theme="@style/Theme.QuranMajeed"
         tools:targetApi="31">
         <activity
+            android:name=".TakeAyat"
+            android:exported="false" />
+        <activity
+            android:name=".SurahNamesActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuranActivity"
             android:exported="false"
             android:label="@string/title_activity_quran"

@@ -1,5 +1,6 @@
-package haqnawaz.org.navigationdrawer;
-
+//package haqnawaz.org.navigationdrawer;
+package com.example.quranmajeed;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -566,9 +567,9 @@ public class QDH {
         return surahAyatCount[surahNumber];
     }
 
-    public List<String> GetSurahNames() {
-        List<String> list = null;
-        for (int index = 0; index < urduSurahNames.length; ++index)
+    public ArrayList<String> GetSurahNames() {
+        ArrayList<String> list = new ArrayList<>();
+        for(int index = 0; index < urduSurahNames.length; ++index)
             list.add(urduSurahNames[index]);
         return list;
     }

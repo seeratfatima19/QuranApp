@@ -31,31 +31,41 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/surahButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="214dp"
+        android:layout_height="114dp"
         android:background="#ffff"
         android:fontFamily="sans-serif-black"
+        android:paddingLeft="25dp"
+        android:paddingTop="0dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="0dp"
+        android:shadowColor="@color/white"
         android:text="SELECT SURAH"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.511" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ayatButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="218dp"
+        android:layout_height="107dp"
         android:background="#ffff"
         android:fontFamily="sans-serif-black"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="40dp"
         android:text="FIND AYAT"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.538" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.481" />
 </androidx.constraintlayout.widget.ConstraintLayout>
