@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-                Intent mainIntent = new Intent(MainActivity.this,QuranActivity.class);
+                Intent mainIntent = new Intent(MainActivity.this,SurahNamesActivity.class);
                 MainActivity.this.startActivity(mainIntent);
                 MainActivity.this.finish();
             }
