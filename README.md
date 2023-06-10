@@ -9,23 +9,23 @@ Simple Quran Majeed app
 
 UI of the app:
 
-Splash Screen:
+Splash Screen:<br>
 <img src="https://github.com/seeratfatima19/QuranApp/assets/79544770/14f20007-30a9-4a13-9e1b-8df0ab651ac7" width="200px">
 
 
-Surah List Screen:
+Surah List Screen:<br>
 <img src="https://github.com/seeratfatima19/QuranApp/assets/79544770/7846e194-153d-4b4c-8a6a-fb019287adfd" width="200px">
 
 
-Displaying specific surah:
+Displaying specific surah:<br>
 <img src="https://github.com/seeratfatima19/QuranApp/assets/79544770/b68379a4-14c6-4aab-a260-dd87bdd36391" width="200px">
 
 
-Searching specific ayat:
+Searching specific ayat:<br>
 <img src="https://github.com/seeratfatima19/QuranApp/assets/79544770/399aa4f0-0df8-428c-8965-5536170c58a3" width="200px">
 
 
-Displaying specific ayat:
+Displaying specific ayat:<br>
 
 <img src="https://github.com/seeratfatima19/QuranApp/assets/79544770/b15a3a67-ac36-42a5-b634-4bc52b0c24a7" width="200px">
 
